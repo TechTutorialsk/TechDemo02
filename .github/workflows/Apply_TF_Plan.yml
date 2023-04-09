@@ -62,7 +62,7 @@ jobs:
       TF_KEY: ${{ inputs.tf_key }}.tfstate
       ###AZURE Client details###
       ARM_CLIENT_ID: ${{ secrets.arm_client_id }}
-      ARM_CLIENT_SECRET: ${{ secrets.arm_client_secret }}
+      CERT: ${{ secrets.CERT }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.arm_subscription_id }}
       ARM_TENANT_ID: ${{ secrets.arm_tenant_id }}
   
