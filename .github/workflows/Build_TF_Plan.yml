@@ -100,7 +100,7 @@ jobs:
       - name: Login via azure cli with certificate
         run: |
            echo "$cert" > tmp9x_tz17p.pem
-           az login --service-principal  --username '4676cad2-45c6-47f6-8380-6b9ad7303e76' --tenant '781a1d43-1da6-44f4-805c-1597fa2c7dd0' --password 'tmp9x_tz17p.pem'
+           az login --service-principal  --username '4676cad2-45c6-47f6-8380-6b9ad7303e76' --tenant '781a1d43-1da6-44f4-805c-1597fa2c7dd0' --password 'tmp9x_tz17p.pem' --allow-no-subscriptions
 
       - name: Terraform Format
         id: fmt
