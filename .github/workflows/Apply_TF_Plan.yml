@@ -39,7 +39,7 @@ on:
         required: true
       arm_client_secret:
         description: 'Specifies the Azure ARM CLIENT SECRET.'
-        required: true
+        required: false
       arm_subscription_id:
         description: 'Specifies the Azure ARM SUBSCRIPTION ID.'
         required: true
