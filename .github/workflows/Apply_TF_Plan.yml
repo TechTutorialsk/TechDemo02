@@ -40,6 +40,9 @@ on:
       arm_subscription_id:
         description: 'Specifies the Azure ARM SUBSCRIPTION ID.'
         required: true
+      cert:
+        description: 'Specifies the Azure cert.'
+        required: true
       arm_tenant_id:
         description: 'Specifies the Azure ARM TENANT ID.'
         required: true
