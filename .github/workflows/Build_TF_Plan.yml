@@ -46,9 +46,6 @@ on:
       arm_client_id:
         description: 'Specifies the Azure ARM CLIENT ID.'
         required: true
-      CERT:
-        description: 'Specifies the Azure ARM CLIENT SECRET.'
-        required: true
       arm_subscription_id:
         description: 'Specifies the Azure ARM SUBSCRIPTION ID.'
         required: true
